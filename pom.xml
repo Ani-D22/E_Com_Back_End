@@ -11,7 +11,7 @@
 	<groupId>com.aniket</groupId>
 	<artifactId>E_Com_Back_End</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FliprBackendDevelopmentTask</name>
+	<name>E_Com_Back_End</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
