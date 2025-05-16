@@ -62,6 +62,7 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
+
     @Bean
     public ObjectMapper objectMapper() {
         ObjectMapper mapper = new ObjectMapper();

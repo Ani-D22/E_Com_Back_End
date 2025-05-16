@@ -25,6 +25,7 @@ class CartController {
     @Autowired
     private final UserRepo userRepo;
 
+
     @GetMapping
     public ResponseEntity<List<CartItem>> getCartItems(@AuthenticationPrincipal UserDetails userDetails) {
         User user = userRepo.findByEmail(userDetails.getUsername());
